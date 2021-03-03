@@ -1,0 +1,48 @@
+a:hover>H1 {
+    color: lightblue;
+    font-weight: bold;
+}
+
+a:active>H2{
+   color: red;
+    font-style: italic;
+}
+
+a:visited>H3 {
+    color: yellow;
+}
+
+input[type=email]:focus{
+    color: green;    
+    width: 500px;
+}
+
+* {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+ 
+
+.navbar a, .search-container{ 
+    display: block;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    background-color: darkblue;
+}
+
+.current-page {
+    background-color: gray;
+}
+
+.nav-link:hover {
+    color: lightblue;
+}
+
+#search:focus {
+    background-color: aquamarine;
+}
